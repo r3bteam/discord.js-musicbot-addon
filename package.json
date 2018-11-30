@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "ytdl-core": "^0.20.3",
+    "discord.js": "^11.4.2",
     "ytpl": "^0.1.14",
     "ytsearcher": "^1.2.0"
   },
