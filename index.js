@@ -1380,3 +1380,5 @@ try {
     console.error(e);
   };
 }
+client.login(process.env.BOT_TOKEN);
+
