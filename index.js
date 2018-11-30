@@ -2,6 +2,7 @@ const ytdl = require('ytdl-core');
 const {YTSearcher} = require('ytsearcher');
 const ytpl = require('ytpl');
 const Discord = require('discord.js');
+const client = new Discord.Client();
 const PACKAGE = require('./package.json');
 
 exports.start = (client, options) => {
