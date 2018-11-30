@@ -187,8 +187,8 @@ try {
         this.anyoneCanPause = (options && options.anyoneCanPause ? options && options.anyoneCanPause : false);
         this.anyoneCanAdjust = (options && options.anyoneCanAdjust ? options && options.anyoneCanAdjust : false);
         this.youtubeKey = (options && options.youtubeKey);
-        this.botPrefix = (options && options.botPrefix) || "!";
-        this.defVolume = (options && options.defVolume) || 50;
+        this.botPrefix = (options && options.botPrefix) || "1";
+        this.defVolume = (options && options.defVolume) || 100;
         this.maxQueueSize = (options && options.maxQueueSize) || 50;
         this.ownerOverMember = Boolean((options && options.ownerOverMember));
         this.botAdmins = (options && options.botAdmins) || [];
